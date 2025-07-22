@@ -1,4 +1,4 @@
-# 3d-css-cube
+ 3d-css-cube
 It is a css styled 3d cube made with css using html too.
 # 🎲 3D CSS Cube Animation
 
@@ -9,8 +9,8 @@ Hover over the cube to watch it rotate in 3D space.
 
 ## 🌐 Live Demo
 
-🔗 [View Live Demo](#)  
-_(Replace this link with your GitHub Pages or CodePen link)_
+🔗 [View Repo]
+[ https://github.com/Ankit-Raj902/3d-css-cube ]
 
 
 ## 📸 Preview
@@ -39,7 +39,8 @@ To view or edit this project:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/3d-css-cube.git
+   https://github.com/Ankit-Raj902/3d-css-cube.git
+   
 
 2. Open index.html in your browser
 
