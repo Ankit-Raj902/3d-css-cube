@@ -1,0 +1,52 @@
+body {
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+.scene {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  perspective: 800px; /* 👈 important for 3D */
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  position: relative;
+ transform-style: preserve-3d;
+  transform: rotateX(-20deg) rotateY(20deg);
+  transition: transform 2s;
+}
+
+.scene:hover .cube {
+  transform: rotateX(360deg) rotateY(360deg); /*you can this to control rotation*/
+}
+
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  opacity: 0.95;
+  border: 2px solid white;
+}
+
+/* Each face with its transform */
+.front  { transform: translateZ(100px); background: #f44336; }
+.back   { transform: rotateY(180deg) translateZ(100px); background: #3f51b5; }
+.right  { transform: rotateY(90deg) translateZ(100px); background: #4caf50; }
+.left   { transform: rotateY(-90deg) translateZ(100px); background: #ff9800; }
+.top    { transform: rotateX(90deg) translateZ(100px); background: #9c27b0; }
+.bottom { transform: rotateX(-90deg) translateZ(100px); background: #00bcd4; }
