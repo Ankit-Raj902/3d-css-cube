@@ -16,9 +16,9 @@ Hover over the cube to watch it rotate in 3D space.
 ## 📸 Preview
 
 ![3D CSS Cube Preview](Screenshot_20250723-021432_WebCode.jpg)  
-[preview images ]( Screenshot_20250723-021418_WebCode.jpg )
-[preview images ]( Screenshot_20250723-021353_WebCode.jpg )
-[preview images ]( Screenshot_20250723-021320_WebCode.jpg )
+![preview images ]( Screenshot_20250723-021418_WebCode.jpg )
+![preview images ]( Screenshot_20250723-021353_WebCode.jpg )
+![preview images ]( Screenshot_20250723-021320_WebCode.jpg )
 _(Add a GIF or screenshot of the cube in action)_
 
 
